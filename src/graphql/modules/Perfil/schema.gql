@@ -1,0 +1,13 @@
+enum TipoPerfil{
+    DIREITA
+    ESQUERDA
+}
+
+type Perfil{
+    id: Int
+    descricao: TipoPerfil
+}
+
+type Query{
+    perfis: [Perfil]
+}
